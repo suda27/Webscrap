@@ -3,7 +3,7 @@ const csv = require("csv-parser");
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 // Specify the path to your CSV file
-const csvFilePath = "Details.csv";
+const csvFilePath = "Subscribers.csv";
 
 // Create an array to store the parsed data
 const data = [];
@@ -25,7 +25,7 @@ fs.createReadStream(csvFilePath)
   .on("data", (row) => {
     // Process each row of data
     data.push(row);
-    const column3Value = row.Names;
+    const column3Value = row.details;
 
     // Store the value in the array
     thirdColumnValues.push(column3Value);

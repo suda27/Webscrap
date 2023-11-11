@@ -11,7 +11,8 @@
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "start":"node index.js",
+    "scrap-contacts":"node index.js",
+    "scrap-articles":"node articlescrap.js",
     "test": "node index.js"
   },
   "author": "sudarsan prabakaran",
