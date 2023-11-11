@@ -1,0 +1,19 @@
+{
+  "name": "vimal-webscrap",
+  "version": "1.0.0",
+  "description": "code for vimal to help him with subscriber and article scraping",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "fast-csv": "^4.3.6",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start":"node index.js",
+    "test": "node index.js"
+  },
+  "author": "sudarsan prabakaran",
+  "license": "ISC"
+}
